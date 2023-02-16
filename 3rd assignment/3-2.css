@@ -1,0 +1,81 @@
+@media screen and (min-width: 1200px) {
+    .swing {
+      width: 128px;
+      height: 240px;
+      background: url(swing.png);
+    }
+  }
+  
+  @media screen and (min-width: 1100px) and (max-width: 1200px) {
+    .swing {
+      width: 128px;
+      height: 240px;
+      background: url(swing.png) -128px 0px;
+    }
+  }
+  
+  @media screen and (min-width: 1000px) and (max-width: 1100px) {
+    .swing {
+      width: 128px;
+      height: 240px;
+      background: url(swing.png) -256px 0px;
+    }
+  }
+  
+  @media screen and (min-width: 900px) and (max-width: 1000px) {
+    .swing {
+      width: 128px;
+      height: 240px;
+      background: url(swing.png) -384px 0px;
+    }
+  }
+  
+  @media screen and (min-width: 800px) and (max-width: 900px) {
+    .swing {
+      width: 128px;
+      height: 240px;
+      background: url(swing.png) -512px 0px;
+    }
+  }
+  
+  /* 1st row end (or) 2nd row start */
+  
+  @media screen and (min-width: 700px) and (max-width: 800px) {
+    .swing {
+      width: 128px;
+      height: 240px;
+      background: url(swing.png) 0px -240px;
+    }
+  }
+  
+  @media screen and (min-width: 600px) and (max-width: 700px) {
+    .swing {
+      width: 128px;
+      height: 240px;
+      background: url(swing.png) -128px -240px;
+    }
+  }
+  
+  @media screen and (min-width: 500px) and (max-width: 600px) {
+    .swing {
+      width: 128px;
+      height: 240px;
+      background: url(swing.png) -256px -240px;
+    }
+  }
+  
+  @media screen and (min-width: 400px) and (max-width: 500px) {
+    .swing {
+      width: 128px;
+      height: 240px;
+      background: url(swing.png) -384px -240px;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .swing {
+      width: 128px;
+      height: 240px;
+      background: url(swing.png) -512px -240px;
+    }
+  }
